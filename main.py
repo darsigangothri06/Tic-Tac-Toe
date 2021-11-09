@@ -23,9 +23,12 @@ def Play():
         display(L)
         print('-'*60)
         if L[0] == L[1] == L[2] or L[0] == L[4] == L[8] or L[0] == L[3] == L[6] or L[1] == L[4] == L[7] or L[2] == L[4] == L[6] or L[2] == L[5] == L[8] or L[3] == L[4] == L[5] or L[6] == L[7] == L[8]:
-            print("Done winner")
+            if not i:
+                print("Winner is Player 1.. Congratulations")
+            else:
+                print("Winner is Player 2.. Congratulations")
             break
-        if p == 8:
+        if p == 9:
             print("Draw break")
             break
         if i:
