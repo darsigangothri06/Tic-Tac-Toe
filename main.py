@@ -9,6 +9,7 @@ def ChkO(L,position):
 def ChkX(L,position):
     L[position-1] = 'X'
 def Play():
+    print("enter")
     player1 = int(input("Enter your choice: 'O' or 'X' 1 or 2?"))
     if player1 == 1:
         player1 = 'O'
