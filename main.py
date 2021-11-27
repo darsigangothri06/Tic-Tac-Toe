@@ -48,6 +48,8 @@ def Play():
             else:
                 ChkO(L,position)
             i = True
+    else:
+        print("Match Drawn!!")
 k = 0
 while True:
     if k == 0:
@@ -64,4 +66,5 @@ while True:
         if ans == "yes":
             Play()
         else:
+            print("Thankyou!")
             break
